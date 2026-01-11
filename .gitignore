@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Internal Documentation (Do not upload)
+FINAL_PHASE.md
+PAGES_EXPANSION.md
+PHASE_3_COMPLETION.md
+SITE_DOCUMENTATION.md
