@@ -18,7 +18,7 @@ export default function Navbar() {
               alt="SOLENA Regulatory Intelligence"
               height={32}
               width={120}
-              className="h-8 w-auto"
+              className="h-4 md:scale-80 w-auto"
               priority
               unoptimized
             />
