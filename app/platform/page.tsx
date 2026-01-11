@@ -45,7 +45,7 @@ export default function PlatformPage() {
               Deep Retrieval
             </h2>
             <p className="font-sans text-text text-lg leading-relaxed">
-              SOLENA scans 71+ PDF categories across regulatory databases, extracting precise citations with cryptographic verification. Every answer is tethered to its source document.
+              SOLENA scans thousands of global regulatory documents across major government databases, extracting precise citations with cryptographic verification. Every answer is tethered to its source document.
             </p>
             <div className="space-y-3 pt-4">
               <div className="flex items-center gap-3">
