@@ -12,7 +12,7 @@ export default function Footer() {
               <span className="font-serif text-2xl font-bold text-white tracking-wide">SOLENA</span>
             </Link>
             <p className="font-serif text-gray-400 text-lg italic">
-              Certainty in Chaos.
+              AI driven Intelligence Solution
             </p>
           </div>
 
@@ -24,10 +24,26 @@ export default function Footer() {
             <ul className="space-y-2">
               <li>
                 <Link
-                  href="/"
+                  href="/platform"
                   className="font-sans text-white/70 hover:text-white transition-colors text-sm"
                 >
-                  Home
+                  Platform
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/solutions"
+                  className="font-sans text-white/70 hover:text-white transition-colors text-sm"
+                >
+                  Solutions
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/intelligence"
+                  className="font-sans text-white/70 hover:text-white transition-colors text-sm"
+                >
+                  Intelligence
                 </Link>
               </li>
               <li>
@@ -35,7 +51,15 @@ export default function Footer() {
                   href="/trust"
                   className="font-sans text-white/70 hover:text-white transition-colors text-sm"
                 >
-                  Trust Center
+                  Trust
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/contact"
+                  className="font-sans text-white/70 hover:text-white transition-colors text-sm"
+                >
+                  Contact
                 </Link>
               </li>
             </ul>
@@ -53,6 +77,14 @@ export default function Footer() {
                   className="font-sans text-white/70 hover:text-white transition-colors text-sm"
                 >
                   Terms of Service
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/privacy"
+                  className="font-sans text-white/70 hover:text-white transition-colors text-sm"
+                >
+                  Privacy Policy
                 </Link>
               </li>
             </ul>
