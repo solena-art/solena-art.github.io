@@ -11,7 +11,7 @@ export default function TermsPage() {
           SOLENA Terms of Service
         </h1>
         <p className="font-sans text-text/60 text-sm mb-12">
-          Last Updated: January 17, 2026
+          Last Updated: January 26, 2026
         </p>
 
         <div className="prose prose-slate max-w-none">
@@ -93,9 +93,38 @@ export default function TermsPage() {
             <p className="font-sans text-text leading-relaxed mb-4">
               Payments are processed by third-party payment processors. You authorize us to charge your payment method for the applicable subscription fees on a recurring basis (monthly or annually) until you cancel.
             </p>
-            <h3 className="font-serif text-primary text-xl font-bold mb-3">4.3 No Refunds</h3>
-            <p className="font-sans text-text leading-relaxed mb-4 font-bold">
-              ALL SALES ARE FINAL. Subscription fees are non-refundable, except as required by applicable law.
+            <h3 className="font-serif text-primary text-xl font-bold mb-3">4.3 Refund Policy</h3>
+            <p className="font-sans text-text leading-relaxed mb-4">
+              SOLENA offers a fourteen (14) day refund period from the date of initial subscription purchase, subject to the following conditions:
+            </p>
+            <p className="font-sans text-text leading-relaxed mb-2 font-semibold">Eligibility for Refund:</p>
+            <ul className="font-sans text-text leading-relaxed space-y-2 list-disc list-inside mb-4">
+              <li>Refund requests must be submitted within fourteen (14) days of the initial subscription purchase date.</li>
+              <li>Refunds are available only if the User has NOT generated any regulatory intelligence reports using the Services during the subscription period.</li>
+              <li>Once a User has generated a valid report through the platform, the sale is considered final and the User is not eligible for a refund.</li>
+            </ul>
+            <p className="font-sans text-text leading-relaxed mb-2 font-semibold">Refund Process:</p>
+            <ul className="font-sans text-text leading-relaxed space-y-2 list-disc list-inside mb-4">
+              <li>To request a refund, contact us at info@solenamedical.com with your account email address and reason for the refund request.</li>
+              <li>Refund requests will be processed within thirty (30) days of receipt of a valid request.</li>
+              <li>Approved refunds will be issued to the original payment method.</li>
+            </ul>
+            <p className="font-sans text-text leading-relaxed mb-2 font-semibold">Non-Refundable Circumstances:</p>
+            <ul className="font-sans text-text leading-relaxed space-y-2 list-disc list-inside mb-4">
+              <li>Subscription fees are non-refundable after the fourteen (14) day period has elapsed.</li>
+              <li>Subscription fees are non-refundable if the User has generated any reports using the Services.</li>
+              <li>Partial refunds are not provided for unused portions of a billing period.</li>
+              <li>Renewal payments are non-refundable; Users should cancel before the renewal date to avoid charges.</li>
+            </ul>
+            <p className="font-sans text-text leading-relaxed mb-2 font-semibold">Cancellation:</p>
+            <ul className="font-sans text-text leading-relaxed space-y-2 list-disc list-inside mb-4">
+              <li>You may cancel your subscription at any time through your account settings or by contacting info@solenamedical.com.</li>
+              <li>Cancellation takes effect at the end of the current billing period.</li>
+              <li>No refunds are provided for the remaining portion of the billing period after cancellation.</li>
+            </ul>
+            <p className="font-sans text-text leading-relaxed mb-2 font-semibold">Enterprise Plans:</p>
+            <p className="font-sans text-text leading-relaxed mb-4">
+              Enterprise customers should refer to their individual service agreement for refund and cancellation terms.
             </p>
             <h3 className="font-serif text-primary text-xl font-bold mb-3">4.4 Taxes</h3>
             <p className="font-sans text-text leading-relaxed">
